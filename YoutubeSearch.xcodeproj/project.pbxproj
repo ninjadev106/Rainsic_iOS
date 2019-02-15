@@ -1,0 +1,1020 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CA8BBE84AC83A4F634507BC /* libPods-YoutubeSearch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C8615C1B854F67FC18C249 /* libPods-YoutubeSearch.a */; };
+		75147A0C21C151AF002EA0CA /* UITabBar+TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 75147A0B21C151AF002EA0CA /* UITabBar+TabBar.m */; };
+		75147A0E21C15721002EA0CA /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75147A0D21C15721002EA0CA /* rain.mp3 */; };
+		75147A1021C15B71002EA0CA /* rs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75147A0F21C15B71002EA0CA /* rs.mp3 */; };
+		8E18F12F1FF3E95300B001CD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E18F12E1FF3E95300B001CD /* AVFoundation.framework */; };
+		8E29AC1A205A690900B5AF08 /* ChildTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E29AC19205A690900B5AF08 /* ChildTabViewController.m */; };
+		8E4F42672041581400E7C691 /* AppDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F42662041581400E7C691 /* AppDefine.m */; };
+		8E4F426A2041648B00E7C691 /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F42692041648B00E7C691 /* MarqueeLabel.m */; };
+		8E8A095D205BFB3B00AABD01 /* VerticalSliderBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8A095C205BFB3B00AABD01 /* VerticalSliderBar.m */; };
+		8E8A095F205BFB4500AABD01 /* VerticalSliderBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8A095E205BFB4500AABD01 /* VerticalSliderBar.xib */; };
+		8E8A0963205C246A00AABD01 /* VerticalEQBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8A0962205C246A00AABD01 /* VerticalEQBar.m */; };
+		8E8A0965205C247100AABD01 /* VerticalEQBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8A0964205C247100AABD01 /* VerticalEQBar.xib */; };
+		8E912A01206B81E1003E8BA6 /* ReverbOptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E912A00206B81E1003E8BA6 /* ReverbOptionsView.m */; };
+		8E912A03206B81EB003E8BA6 /* ReverbOptionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E912A02206B81EB003E8BA6 /* ReverbOptionsView.xib */; };
+		8E912A07206B9C51003E8BA6 /* AudioPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E912A06206B9C51003E8BA6 /* AudioPlayerController.m */; };
+		8E912A0B206BBB9B003E8BA6 /* SettingPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E912A0A206BBB9B003E8BA6 /* SettingPopup.m */; };
+		8E912A11206BC54D003E8BA6 /* UIView+AIExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E912A0F206BC54C003E8BA6 /* UIView+AIExtentions.m */; };
+		8EA182C52064F3BC00C6B98E /* AIPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA182C12064F3BA00C6B98E /* AIPopupController.m */; };
+		8EA182C62064F3BC00C6B98E /* UIViewController+AIPresented.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA182C22064F3BA00C6B98E /* UIViewController+AIPresented.m */; };
+		8EA182C92064F4B800C6B98E /* ReverbPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA182C82064F4B800C6B98E /* ReverbPopupController.m */; };
+		8EA182CC20651CB800C6B98E /* AIAudioMixerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA182CB20651CB800C6B98E /* AIAudioMixerManager.m */; };
+		8EEC2B6B1FA320CB006FA486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC2B6A1FA320CB006FA486 /* main.m */; };
+		8EEC2B6E1FA320CB006FA486 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC2B6D1FA320CB006FA486 /* AppDelegate.m */; };
+		8EEC2B741FA320CB006FA486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EEC2B721FA320CB006FA486 /* Main.storyboard */; };
+		8EEC2B761FA320CB006FA486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEC2B751FA320CB006FA486 /* Assets.xcassets */; };
+		8EEC2B791FA320CB006FA486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EEC2B771FA320CB006FA486 /* LaunchScreen.storyboard */; };
+		8EED8C632020580900B0828C /* ControllerServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EED8C622020580900B0828C /* ControllerServices.m */; };
+		8EF56DE7202021F400C1AD54 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56D82202021ED00C1AD54 /* UIView+AutoLayout.m */; };
+		8EF56DE8202021F400C1AD54 /* UIView+InvolveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56D84202021ED00C1AD54 /* UIView+InvolveView.m */; };
+		8EF56DE9202021F400C1AD54 /* UIView+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56D86202021ED00C1AD54 /* UIView+Properties.m */; };
+		8EF56DEA202021F400C1AD54 /* AIExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56D88202021ED00C1AD54 /* AIExtentions.m */; };
+		8EF56DEB202021F400C1AD54 /* AIFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56D8A202021ED00C1AD54 /* AIFramework.m */; };
+		8EF56DEC202021F400C1AD54 /* AIGestureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56D8C202021ED00C1AD54 /* AIGestureHandler.m */; };
+		8EF56DED202021F400C1AD54 /* AINetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56D8F202021ED00C1AD54 /* AINetworkRequest.m */; };
+		8EF56DEE202021F400C1AD54 /* AINibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56D91202021ED00C1AD54 /* AINibView.m */; };
+		8EF56DEF202021F400C1AD54 /* AISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56D93202021ED00C1AD54 /* AISlider.m */; };
+		8EF56DF0202021F400C1AD54 /* AISliderBarValueVimod.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56D96202021ED00C1AD54 /* AISliderBarValueVimod.m */; };
+		8EF56DF1202021F400C1AD54 /* AISliderDotFillRangeVimod.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56D98202021ED00C1AD54 /* AISliderDotFillRangeVimod.m */; };
+		8EF56DF2202021F400C1AD54 /* AISliderDotVimod.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56D9A202021ED00C1AD54 /* AISliderDotVimod.m */; };
+		8EF56DF3202021F400C1AD54 /* AISliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56D9C202021ED00C1AD54 /* AISliderView.m */; };
+		8EF56DF4202021F400C1AD54 /* AISliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF56D9D202021ED00C1AD54 /* AISliderView.xib */; };
+		8EF56DF5202021F400C1AD54 /* ic_custom_slider_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF56D9E202021ED00C1AD54 /* ic_custom_slider_dot.png */; };
+		8EF56DF6202021F400C1AD54 /* AIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56DA0202021ED00C1AD54 /* AIUtility.m */; };
+		8EF56DF7202021F400C1AD54 /* AIWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56DA2202021ED00C1AD54 /* AIWeakTimer.m */; };
+		8EF56DF8202021F400C1AD54 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56DA4202021ED00C1AD54 /* NSDate+Utilities.m */; };
+		8EF56DF9202021F400C1AD54 /* NSObject+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56DA6202021ED00C1AD54 /* NSObject+Block.m */; };
+		8EF56DFA202021F400C1AD54 /* NSTimerWeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56DA8202021ED00C1AD54 /* NSTimerWeak.m */; };
+		8EF56DFB202021F400C1AD54 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56DAA202021ED00C1AD54 /* UIColor+HexString.m */; };
+		8EF56DFC202021F400C1AD54 /* AppSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56DAC202021F000C1AD54 /* AppSession.m */; };
+		8EF56E11202021F400C1AD54 /* noo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EF56DD8202021F100C1AD54 /* noo.mp3 */; };
+		8EF56E12202021F400C1AD54 /* noo_s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EF56DD9202021F100C1AD54 /* noo_s.mp3 */; };
+		8EF56E13202021F400C1AD54 /* youtube_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EF56DDA202021F100C1AD54 /* youtube_thumb.jpg */; };
+		8EF56E14202021F400C1AD54 /* BaseAppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56DDD202021F400C1AD54 /* BaseAppModel.m */; };
+		8EF56E15202021F400C1AD54 /* DeviceMediaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56DDF202021F400C1AD54 /* DeviceMediaModel.m */; };
+		8EF56E16202021F400C1AD54 /* PlaylistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56DE2202021F400C1AD54 /* PlaylistModel.m */; };
+		8EF56E17202021F400C1AD54 /* VideoPlaylistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56DE4202021F400C1AD54 /* VideoPlaylistModel.m */; };
+		8EF56E18202021F400C1AD54 /* YoutubeVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56DE6202021F400C1AD54 /* YoutubeVideoModel.m */; };
+		8EF56E492020231500C1AD54 /* AudioPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E1C2020231500C1AD54 /* AudioPlayerView.m */; };
+		8EF56E4A2020231500C1AD54 /* AudioPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF56E1D2020231500C1AD54 /* AudioPlayerView.xib */; };
+		8EF56E4B2020231500C1AD54 /* AudioEQController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E1F2020231500C1AD54 /* AudioEQController.m */; };
+		8EF56E4C2020231500C1AD54 /* AudioPlayerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E222020231500C1AD54 /* AudioPlayerControl.m */; };
+		8EF56E4D2020231500C1AD54 /* AudioSplitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E242020231500C1AD54 /* AudioSplitController.m */; };
+		8EF56E4E2020231500C1AD54 /* AudioSplitSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E262020231500C1AD54 /* AudioSplitSliderView.m */; };
+		8EF56E4F2020231500C1AD54 /* AudioSplitSliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF56E272020231500C1AD54 /* AudioSplitSliderView.xib */; };
+		8EF56E512020231500C1AD54 /* MultimediaPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E2C2020231500C1AD54 /* MultimediaPlayerView.m */; };
+		8EF56E522020231500C1AD54 /* MultimediaPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF56E2D2020231500C1AD54 /* MultimediaPlayerView.xib */; };
+		8EF56E532020231500C1AD54 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E302020231500C1AD54 /* FavoriteViewController.m */; };
+		8EF56E542020231500C1AD54 /* MusicLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E322020231500C1AD54 /* MusicLibraryController.m */; };
+		8EF56E552020231500C1AD54 /* PlaylistTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E342020231500C1AD54 /* PlaylistTableCell.m */; };
+		8EF56E562020231500C1AD54 /* PlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E362020231500C1AD54 /* PlaylistViewController.m */; };
+		8EF56E572020231500C1AD54 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E382020231500C1AD54 /* RootTabBarController.m */; };
+		8EF56E582020231500C1AD54 /* MediaItemListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E3B2020231500C1AD54 /* MediaItemListView.m */; };
+		8EF56E592020231500C1AD54 /* MediaItemListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF56E3C2020231500C1AD54 /* MediaItemListView.xib */; };
+		8EF56E5A2020231500C1AD54 /* YTFavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E3F2020231500C1AD54 /* YTFavoriteViewController.m */; };
+		8EF56E5B2020231500C1AD54 /* YTPlaylistTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E412020231500C1AD54 /* YTPlaylistTableCell.m */; };
+		8EF56E5C2020231500C1AD54 /* YTPlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E432020231500C1AD54 /* YTPlaylistViewController.m */; };
+		8EF56E5D2020231500C1AD54 /* YTSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E452020231500C1AD54 /* YTSearchViewController.m */; };
+		8EF56E5E2020231500C1AD54 /* YoutubeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E472020231500C1AD54 /* YoutubeTableViewCell.m */; };
+		8EF56E5F2020231500C1AD54 /* YoutubeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF56E482020231500C1AD54 /* YoutubeTableViewCell.xib */; };
+		8EF56E63202025D400C1AD54 /* AudioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF56E60202025D300C1AD54 /* AudioTableViewCell.xib */; };
+		8EF56E64202025D400C1AD54 /* AudioTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF56E61202025D300C1AD54 /* AudioTableViewCell.m */; };
+		8EF6C43D204F7C8A002A14FE /* audio1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8EF6C43C204F7C8A002A14FE /* audio1.caf */; };
+		8EF6C43F204F99FD002A14FE /* raindrop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EF6C43E204F99FD002A14FE /* raindrop.mp3 */; };
+		A53D8C9621663A32006A4E40 /* thumb30@2.png in Resources */ = {isa = PBXBuildFile; fileRef = A53D8C9521663A31006A4E40 /* thumb30@2.png */; };
+		A568C69E217F4C7F0067DA7C /* Circles-01.png in Resources */ = {isa = PBXBuildFile; fileRef = A568C69D217F4C7F0067DA7C /* Circles-01.png */; };
+		A5711CDC212EC5BD006AE2A9 /* thumb30.png in Resources */ = {isa = PBXBuildFile; fileRef = A5711CDB212EC5BD006AE2A9 /* thumb30.png */; };
+		A5816817218C15E200ABE2F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5816816218C15E200ABE2F0 /* UIKit.framework */; };
+		A5816819218C160800ABE2F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5816818218C160800ABE2F0 /* QuartzCore.framework */; };
+		A581681B218C163B00ABE2F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A581681A218C163B00ABE2F0 /* CoreGraphics.framework */; };
+		A581681D218C164600ABE2F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A581681C218C164600ABE2F0 /* Foundation.framework */; };
+		A5816821218C16BB00ABE2F0 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = A581681F218C16BB00ABE2F0 /* UIView+Toast.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6125E72A74F5676329B65F70 /* Pods-YoutubeSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubeSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YoutubeSearch/Pods-YoutubeSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		65C8615C1B854F67FC18C249 /* libPods-YoutubeSearch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YoutubeSearch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75147A0A21C151AF002EA0CA /* UITabBar+TabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBar+TabBar.h"; sourceTree = "<group>"; };
+		75147A0B21C151AF002EA0CA /* UITabBar+TabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+TabBar.m"; sourceTree = "<group>"; };
+		75147A0D21C15721002EA0CA /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
+		75147A0F21C15B71002EA0CA /* rs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rs.mp3; sourceTree = "<group>"; };
+		8E18F12E1FF3E95300B001CD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8E29AC18205A690900B5AF08 /* ChildTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildTabViewController.h; sourceTree = "<group>"; };
+		8E29AC19205A690900B5AF08 /* ChildTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildTabViewController.m; sourceTree = "<group>"; };
+		8E4F42652041581400E7C691 /* AppDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDefine.h; sourceTree = "<group>"; };
+		8E4F42662041581400E7C691 /* AppDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDefine.m; sourceTree = "<group>"; };
+		8E4F42682041648B00E7C691 /* MarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarqueeLabel.h; sourceTree = "<group>"; };
+		8E4F42692041648B00E7C691 /* MarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeLabel.m; sourceTree = "<group>"; };
+		8E8A095B205BFB3B00AABD01 /* VerticalSliderBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalSliderBar.h; sourceTree = "<group>"; };
+		8E8A095C205BFB3B00AABD01 /* VerticalSliderBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalSliderBar.m; sourceTree = "<group>"; };
+		8E8A095E205BFB4500AABD01 /* VerticalSliderBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerticalSliderBar.xib; sourceTree = "<group>"; };
+		8E8A0961205C246A00AABD01 /* VerticalEQBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalEQBar.h; sourceTree = "<group>"; };
+		8E8A0962205C246A00AABD01 /* VerticalEQBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalEQBar.m; sourceTree = "<group>"; };
+		8E8A0964205C247100AABD01 /* VerticalEQBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerticalEQBar.xib; sourceTree = "<group>"; };
+		8E9129FF206B81E1003E8BA6 /* ReverbOptionsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverbOptionsView.h; sourceTree = "<group>"; };
+		8E912A00206B81E1003E8BA6 /* ReverbOptionsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverbOptionsView.m; sourceTree = "<group>"; };
+		8E912A02206B81EB003E8BA6 /* ReverbOptionsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReverbOptionsView.xib; sourceTree = "<group>"; };
+		8E912A05206B9C51003E8BA6 /* AudioPlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayerController.h; sourceTree = "<group>"; };
+		8E912A06206B9C51003E8BA6 /* AudioPlayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerController.m; sourceTree = "<group>"; };
+		8E912A09206BBB9B003E8BA6 /* SettingPopup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingPopup.h; sourceTree = "<group>"; };
+		8E912A0A206BBB9B003E8BA6 /* SettingPopup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingPopup.m; sourceTree = "<group>"; };
+		8E912A0F206BC54C003E8BA6 /* UIView+AIExtentions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AIExtentions.m"; sourceTree = "<group>"; };
+		8E912A10206BC54C003E8BA6 /* UIView+AIExtentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AIExtentions.h"; sourceTree = "<group>"; };
+		8EA182C12064F3BA00C6B98E /* AIPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIPopupController.m; sourceTree = "<group>"; };
+		8EA182C22064F3BA00C6B98E /* UIViewController+AIPresented.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AIPresented.m"; sourceTree = "<group>"; };
+		8EA182C32064F3BB00C6B98E /* UIViewController+AIPresented.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AIPresented.h"; sourceTree = "<group>"; };
+		8EA182C42064F3BB00C6B98E /* AIPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIPopupController.h; sourceTree = "<group>"; };
+		8EA182C72064F4B800C6B98E /* ReverbPopupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverbPopupController.h; sourceTree = "<group>"; };
+		8EA182C82064F4B800C6B98E /* ReverbPopupController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverbPopupController.m; sourceTree = "<group>"; };
+		8EA182CA20651CB800C6B98E /* AIAudioMixerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIAudioMixerManager.h; sourceTree = "<group>"; };
+		8EA182CB20651CB800C6B98E /* AIAudioMixerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIAudioMixerManager.m; sourceTree = "<group>"; };
+		8EEC2B661FA320CB006FA486 /* YoutubeSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEC2B6A1FA320CB006FA486 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EEC2B6C1FA320CB006FA486 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8EEC2B6D1FA320CB006FA486 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8EEC2B731FA320CB006FA486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EEC2B751FA320CB006FA486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EEC2B781FA320CB006FA486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EEC2B7A1FA320CB006FA486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EED8C612020580900B0828C /* ControllerServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControllerServices.h; sourceTree = "<group>"; };
+		8EED8C622020580900B0828C /* ControllerServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllerServices.m; sourceTree = "<group>"; };
+		8EF56D81202021ED00C1AD54 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		8EF56D82202021ED00C1AD54 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		8EF56D83202021ED00C1AD54 /* UIView+InvolveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+InvolveView.h"; sourceTree = "<group>"; };
+		8EF56D84202021ED00C1AD54 /* UIView+InvolveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+InvolveView.m"; sourceTree = "<group>"; };
+		8EF56D85202021ED00C1AD54 /* UIView+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Properties.h"; sourceTree = "<group>"; };
+		8EF56D86202021ED00C1AD54 /* UIView+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Properties.m"; sourceTree = "<group>"; };
+		8EF56D87202021ED00C1AD54 /* AIExtentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIExtentions.h; sourceTree = "<group>"; };
+		8EF56D88202021ED00C1AD54 /* AIExtentions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIExtentions.m; sourceTree = "<group>"; };
+		8EF56D89202021ED00C1AD54 /* AIFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFramework.h; sourceTree = "<group>"; };
+		8EF56D8A202021ED00C1AD54 /* AIFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFramework.m; sourceTree = "<group>"; };
+		8EF56D8B202021ED00C1AD54 /* AIGestureHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIGestureHandler.h; sourceTree = "<group>"; };
+		8EF56D8C202021ED00C1AD54 /* AIGestureHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIGestureHandler.m; sourceTree = "<group>"; };
+		8EF56D8E202021ED00C1AD54 /* AINetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AINetworkRequest.h; sourceTree = "<group>"; };
+		8EF56D8F202021ED00C1AD54 /* AINetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AINetworkRequest.m; sourceTree = "<group>"; };
+		8EF56D90202021ED00C1AD54 /* AINibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AINibView.h; sourceTree = "<group>"; };
+		8EF56D91202021ED00C1AD54 /* AINibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AINibView.m; sourceTree = "<group>"; };
+		8EF56D92202021ED00C1AD54 /* AISlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISlider.h; sourceTree = "<group>"; };
+		8EF56D93202021ED00C1AD54 /* AISlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISlider.m; sourceTree = "<group>"; };
+		8EF56D95202021ED00C1AD54 /* AISliderBarValueVimod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISliderBarValueVimod.h; sourceTree = "<group>"; };
+		8EF56D96202021ED00C1AD54 /* AISliderBarValueVimod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISliderBarValueVimod.m; sourceTree = "<group>"; };
+		8EF56D97202021ED00C1AD54 /* AISliderDotFillRangeVimod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISliderDotFillRangeVimod.h; sourceTree = "<group>"; };
+		8EF56D98202021ED00C1AD54 /* AISliderDotFillRangeVimod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISliderDotFillRangeVimod.m; sourceTree = "<group>"; };
+		8EF56D99202021ED00C1AD54 /* AISliderDotVimod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISliderDotVimod.h; sourceTree = "<group>"; };
+		8EF56D9A202021ED00C1AD54 /* AISliderDotVimod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISliderDotVimod.m; sourceTree = "<group>"; };
+		8EF56D9B202021ED00C1AD54 /* AISliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISliderView.h; sourceTree = "<group>"; };
+		8EF56D9C202021ED00C1AD54 /* AISliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISliderView.m; sourceTree = "<group>"; };
+		8EF56D9D202021ED00C1AD54 /* AISliderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AISliderView.xib; sourceTree = "<group>"; };
+		8EF56D9E202021ED00C1AD54 /* ic_custom_slider_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_custom_slider_dot.png; sourceTree = "<group>"; };
+		8EF56D9F202021ED00C1AD54 /* AIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIUtility.h; sourceTree = "<group>"; };
+		8EF56DA0202021ED00C1AD54 /* AIUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIUtility.m; sourceTree = "<group>"; };
+		8EF56DA1202021ED00C1AD54 /* AIWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIWeakTimer.h; sourceTree = "<group>"; };
+		8EF56DA2202021ED00C1AD54 /* AIWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIWeakTimer.m; sourceTree = "<group>"; };
+		8EF56DA3202021ED00C1AD54 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		8EF56DA4202021ED00C1AD54 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		8EF56DA5202021ED00C1AD54 /* NSObject+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Block.h"; sourceTree = "<group>"; };
+		8EF56DA6202021ED00C1AD54 /* NSObject+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Block.m"; sourceTree = "<group>"; };
+		8EF56DA7202021ED00C1AD54 /* NSTimerWeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerWeak.h; sourceTree = "<group>"; };
+		8EF56DA8202021ED00C1AD54 /* NSTimerWeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerWeak.m; sourceTree = "<group>"; };
+		8EF56DA9202021ED00C1AD54 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		8EF56DAA202021ED00C1AD54 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		8EF56DAB202021F000C1AD54 /* AppSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSession.h; sourceTree = "<group>"; };
+		8EF56DAC202021F000C1AD54 /* AppSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSession.m; sourceTree = "<group>"; };
+		8EF56DD8202021F100C1AD54 /* noo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = noo.mp3; sourceTree = "<group>"; };
+		8EF56DD9202021F100C1AD54 /* noo_s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = noo_s.mp3; sourceTree = "<group>"; };
+		8EF56DDA202021F100C1AD54 /* youtube_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = youtube_thumb.jpg; sourceTree = "<group>"; };
+		8EF56DDC202021F400C1AD54 /* BaseAppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAppModel.h; sourceTree = "<group>"; };
+		8EF56DDD202021F400C1AD54 /* BaseAppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAppModel.m; sourceTree = "<group>"; };
+		8EF56DDE202021F400C1AD54 /* DeviceMediaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceMediaModel.h; sourceTree = "<group>"; };
+		8EF56DDF202021F400C1AD54 /* DeviceMediaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceMediaModel.m; sourceTree = "<group>"; };
+		8EF56DE0202021F400C1AD54 /* IMediaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMediaItem.h; sourceTree = "<group>"; };
+		8EF56DE1202021F400C1AD54 /* PlaylistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistModel.h; sourceTree = "<group>"; };
+		8EF56DE2202021F400C1AD54 /* PlaylistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistModel.m; sourceTree = "<group>"; };
+		8EF56DE3202021F400C1AD54 /* VideoPlaylistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlaylistModel.h; sourceTree = "<group>"; };
+		8EF56DE4202021F400C1AD54 /* VideoPlaylistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlaylistModel.m; sourceTree = "<group>"; };
+		8EF56DE5202021F400C1AD54 /* YoutubeVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeVideoModel.h; sourceTree = "<group>"; };
+		8EF56DE6202021F400C1AD54 /* YoutubeVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeVideoModel.m; sourceTree = "<group>"; };
+		8EF56E1B2020231500C1AD54 /* AudioPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerView.h; sourceTree = "<group>"; };
+		8EF56E1C2020231500C1AD54 /* AudioPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerView.m; sourceTree = "<group>"; };
+		8EF56E1D2020231500C1AD54 /* AudioPlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioPlayerView.xib; sourceTree = "<group>"; };
+		8EF56E1E2020231500C1AD54 /* AudioEQController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioEQController.h; sourceTree = "<group>"; };
+		8EF56E1F2020231500C1AD54 /* AudioEQController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioEQController.m; sourceTree = "<group>"; };
+		8EF56E212020231500C1AD54 /* AudioPlayerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerControl.h; sourceTree = "<group>"; };
+		8EF56E222020231500C1AD54 /* AudioPlayerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerControl.m; sourceTree = "<group>"; };
+		8EF56E232020231500C1AD54 /* AudioSplitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSplitController.h; sourceTree = "<group>"; };
+		8EF56E242020231500C1AD54 /* AudioSplitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSplitController.m; sourceTree = "<group>"; };
+		8EF56E252020231500C1AD54 /* AudioSplitSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSplitSliderView.h; sourceTree = "<group>"; };
+		8EF56E262020231500C1AD54 /* AudioSplitSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSplitSliderView.m; sourceTree = "<group>"; };
+		8EF56E272020231500C1AD54 /* AudioSplitSliderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioSplitSliderView.xib; sourceTree = "<group>"; };
+		8EF56E2B2020231500C1AD54 /* MultimediaPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultimediaPlayerView.h; sourceTree = "<group>"; };
+		8EF56E2C2020231500C1AD54 /* MultimediaPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultimediaPlayerView.m; sourceTree = "<group>"; };
+		8EF56E2D2020231500C1AD54 /* MultimediaPlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultimediaPlayerView.xib; sourceTree = "<group>"; };
+		8EF56E2F2020231500C1AD54 /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
+		8EF56E302020231500C1AD54 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
+		8EF56E312020231500C1AD54 /* MusicLibraryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLibraryController.h; sourceTree = "<group>"; };
+		8EF56E322020231500C1AD54 /* MusicLibraryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLibraryController.m; sourceTree = "<group>"; };
+		8EF56E332020231500C1AD54 /* PlaylistTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistTableCell.h; sourceTree = "<group>"; };
+		8EF56E342020231500C1AD54 /* PlaylistTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistTableCell.m; sourceTree = "<group>"; };
+		8EF56E352020231500C1AD54 /* PlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistViewController.h; sourceTree = "<group>"; };
+		8EF56E362020231500C1AD54 /* PlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistViewController.m; sourceTree = "<group>"; };
+		8EF56E372020231500C1AD54 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		8EF56E382020231500C1AD54 /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		8EF56E3A2020231500C1AD54 /* MediaItemListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaItemListView.h; sourceTree = "<group>"; };
+		8EF56E3B2020231500C1AD54 /* MediaItemListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaItemListView.m; sourceTree = "<group>"; };
+		8EF56E3C2020231500C1AD54 /* MediaItemListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaItemListView.xib; sourceTree = "<group>"; };
+		8EF56E3E2020231500C1AD54 /* YTFavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTFavoriteViewController.h; sourceTree = "<group>"; };
+		8EF56E3F2020231500C1AD54 /* YTFavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTFavoriteViewController.m; sourceTree = "<group>"; };
+		8EF56E402020231500C1AD54 /* YTPlaylistTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlaylistTableCell.h; sourceTree = "<group>"; };
+		8EF56E412020231500C1AD54 /* YTPlaylistTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlaylistTableCell.m; sourceTree = "<group>"; };
+		8EF56E422020231500C1AD54 /* YTPlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlaylistViewController.h; sourceTree = "<group>"; };
+		8EF56E432020231500C1AD54 /* YTPlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlaylistViewController.m; sourceTree = "<group>"; };
+		8EF56E442020231500C1AD54 /* YTSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTSearchViewController.h; sourceTree = "<group>"; };
+		8EF56E452020231500C1AD54 /* YTSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTSearchViewController.m; sourceTree = "<group>"; };
+		8EF56E462020231500C1AD54 /* YoutubeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeTableViewCell.h; sourceTree = "<group>"; };
+		8EF56E472020231500C1AD54 /* YoutubeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeTableViewCell.m; sourceTree = "<group>"; };
+		8EF56E482020231500C1AD54 /* YoutubeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YoutubeTableViewCell.xib; sourceTree = "<group>"; };
+		8EF56E60202025D300C1AD54 /* AudioTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioTableViewCell.xib; sourceTree = "<group>"; };
+		8EF56E61202025D300C1AD54 /* AudioTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioTableViewCell.m; sourceTree = "<group>"; };
+		8EF56E62202025D300C1AD54 /* AudioTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioTableViewCell.h; sourceTree = "<group>"; };
+		8EF6C43C204F7C8A002A14FE /* audio1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio1.caf; sourceTree = "<group>"; };
+		8EF6C43E204F99FD002A14FE /* raindrop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = raindrop.mp3; sourceTree = "<group>"; };
+		A53D8C9521663A31006A4E40 /* thumb30@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb30@2.png"; sourceTree = "<group>"; };
+		A568C69D217F4C7F0067DA7C /* Circles-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circles-01.png"; sourceTree = "<group>"; };
+		A5711CDB212EC5BD006AE2A9 /* thumb30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb30.png; sourceTree = "<group>"; };
+		A5816816218C15E200ABE2F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5816818218C160800ABE2F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A581681A218C163B00ABE2F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A581681C218C164600ABE2F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A581681F218C16BB00ABE2F0 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		A5816820218C16BB00ABE2F0 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		A9CCCD0FD8D4C1A374A913C6 /* Pods-YoutubeSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubeSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-YoutubeSearch/Pods-YoutubeSearch.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EEC2B631FA320CB006FA486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A581681D218C164600ABE2F0 /* Foundation.framework in Frameworks */,
+				A581681B218C163B00ABE2F0 /* CoreGraphics.framework in Frameworks */,
+				A5816819218C160800ABE2F0 /* QuartzCore.framework in Frameworks */,
+				A5816817218C15E200ABE2F0 /* UIKit.framework in Frameworks */,
+				8E18F12F1FF3E95300B001CD /* AVFoundation.framework in Frameworks */,
+				5CA8BBE84AC83A4F634507BC /* libPods-YoutubeSearch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C32E71F58F464A4598AD7BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6125E72A74F5676329B65F70 /* Pods-YoutubeSearch.debug.xcconfig */,
+				A9CCCD0FD8D4C1A374A913C6 /* Pods-YoutubeSearch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E8A095A205BFB1300AABD01 /* VerticalSliderBar */ = {
+			isa = PBXGroup;
+			children = (
+				8E8A095B205BFB3B00AABD01 /* VerticalSliderBar.h */,
+				8E8A095C205BFB3B00AABD01 /* VerticalSliderBar.m */,
+				8E8A095E205BFB4500AABD01 /* VerticalSliderBar.xib */,
+			);
+			path = VerticalSliderBar;
+			sourceTree = "<group>";
+		};
+		8E8A0960205C245E00AABD01 /* VerticalEQBar */ = {
+			isa = PBXGroup;
+			children = (
+				8E8A0961205C246A00AABD01 /* VerticalEQBar.h */,
+				8E8A0962205C246A00AABD01 /* VerticalEQBar.m */,
+				8E8A0964205C247100AABD01 /* VerticalEQBar.xib */,
+			);
+			path = VerticalEQBar;
+			sourceTree = "<group>";
+		};
+		8E9129FE206B81BE003E8BA6 /* ReverbOptionsView */ = {
+			isa = PBXGroup;
+			children = (
+				8E9129FF206B81E1003E8BA6 /* ReverbOptionsView.h */,
+				8E912A00206B81E1003E8BA6 /* ReverbOptionsView.m */,
+				8E912A02206B81EB003E8BA6 /* ReverbOptionsView.xib */,
+			);
+			path = ReverbOptionsView;
+			sourceTree = "<group>";
+		};
+		8E912A04206B9C3D003E8BA6 /* AudioPlayerController */ = {
+			isa = PBXGroup;
+			children = (
+				8E912A05206B9C51003E8BA6 /* AudioPlayerController.h */,
+				8E912A06206B9C51003E8BA6 /* AudioPlayerController.m */,
+			);
+			path = AudioPlayerController;
+			sourceTree = "<group>";
+		};
+		8E912A08206BBB8A003E8BA6 /* SettingPopup */ = {
+			isa = PBXGroup;
+			children = (
+				8E912A09206BBB9B003E8BA6 /* SettingPopup.h */,
+				8E912A0A206BBB9B003E8BA6 /* SettingPopup.m */,
+			);
+			path = SettingPopup;
+			sourceTree = "<group>";
+		};
+		8EEC2B5D1FA320CB006FA486 = {
+			isa = PBXGroup;
+			children = (
+				8EEC2B681FA320CB006FA486 /* YoutubeSearch */,
+				8EEC2B671FA320CB006FA486 /* Products */,
+				0C32E71F58F464A4598AD7BB /* Pods */,
+				ED396C8425DC3D251C0A1943 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8EEC2B671FA320CB006FA486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EEC2B661FA320CB006FA486 /* YoutubeSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EEC2B681FA320CB006FA486 /* YoutubeSearch */ = {
+			isa = PBXGroup;
+			children = (
+				8EF56E192020231500C1AD54 /* Views */,
+				8EF56D7F202021ED00C1AD54 /* AIExtentions */,
+				8EF56DDB202021F400C1AD54 /* Model */,
+				8EF56DD7202021F100C1AD54 /* Resources */,
+				8EEC2B6C1FA320CB006FA486 /* AppDelegate.h */,
+				8EEC2B6D1FA320CB006FA486 /* AppDelegate.m */,
+				8EF56DAB202021F000C1AD54 /* AppSession.h */,
+				8EF56DAC202021F000C1AD54 /* AppSession.m */,
+				A568C69D217F4C7F0067DA7C /* Circles-01.png */,
+				8EEC2B721FA320CB006FA486 /* Main.storyboard */,
+				8EEC2B751FA320CB006FA486 /* Assets.xcassets */,
+				8EEC2B771FA320CB006FA486 /* LaunchScreen.storyboard */,
+				8EEC2B7A1FA320CB006FA486 /* Info.plist */,
+				8EEC2B691FA320CB006FA486 /* Supporting Files */,
+				8EED8C612020580900B0828C /* ControllerServices.h */,
+				8EED8C622020580900B0828C /* ControllerServices.m */,
+				8E4F42652041581400E7C691 /* AppDefine.h */,
+				8E4F42662041581400E7C691 /* AppDefine.m */,
+			);
+			path = YoutubeSearch;
+			sourceTree = "<group>";
+		};
+		8EEC2B691FA320CB006FA486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EEC2B6A1FA320CB006FA486 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EF56D7F202021ED00C1AD54 /* AIExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				8E912A10206BC54C003E8BA6 /* UIView+AIExtentions.h */,
+				8E912A0F206BC54C003E8BA6 /* UIView+AIExtentions.m */,
+				8EA182C42064F3BB00C6B98E /* AIPopupController.h */,
+				8EA182C12064F3BA00C6B98E /* AIPopupController.m */,
+				8EA182C32064F3BB00C6B98E /* UIViewController+AIPresented.h */,
+				8EA182C22064F3BA00C6B98E /* UIViewController+AIPresented.m */,
+				8E4F42682041648B00E7C691 /* MarqueeLabel.h */,
+				8E4F42692041648B00E7C691 /* MarqueeLabel.m */,
+				8EF56D80202021ED00C1AD54 /* AIExtention */,
+				8EF56D87202021ED00C1AD54 /* AIExtentions.h */,
+				8EF56D88202021ED00C1AD54 /* AIExtentions.m */,
+				8EF56D89202021ED00C1AD54 /* AIFramework.h */,
+				8EF56D8A202021ED00C1AD54 /* AIFramework.m */,
+				8EF56D8B202021ED00C1AD54 /* AIGestureHandler.h */,
+				8EF56D8C202021ED00C1AD54 /* AIGestureHandler.m */,
+				8EF56D8D202021ED00C1AD54 /* AINetwork */,
+				8EF56D90202021ED00C1AD54 /* AINibView.h */,
+				8EF56D91202021ED00C1AD54 /* AINibView.m */,
+				8EF56D92202021ED00C1AD54 /* AISlider.h */,
+				8EF56D93202021ED00C1AD54 /* AISlider.m */,
+				8EF56D94202021ED00C1AD54 /* AISliderModule */,
+				8EF56D9F202021ED00C1AD54 /* AIUtility.h */,
+				8EF56DA0202021ED00C1AD54 /* AIUtility.m */,
+				8EF56DA1202021ED00C1AD54 /* AIWeakTimer.h */,
+				8EF56DA2202021ED00C1AD54 /* AIWeakTimer.m */,
+				8EF56DA3202021ED00C1AD54 /* NSDate+Utilities.h */,
+				8EF56DA4202021ED00C1AD54 /* NSDate+Utilities.m */,
+				8EF56DA5202021ED00C1AD54 /* NSObject+Block.h */,
+				8EF56DA6202021ED00C1AD54 /* NSObject+Block.m */,
+				8EF56DA7202021ED00C1AD54 /* NSTimerWeak.h */,
+				8EF56DA8202021ED00C1AD54 /* NSTimerWeak.m */,
+				8EF56DA9202021ED00C1AD54 /* UIColor+HexString.h */,
+				8EF56DAA202021ED00C1AD54 /* UIColor+HexString.m */,
+				8EA182CA20651CB800C6B98E /* AIAudioMixerManager.h */,
+				8EA182CB20651CB800C6B98E /* AIAudioMixerManager.m */,
+			);
+			path = AIExtentions;
+			sourceTree = "<group>";
+		};
+		8EF56D80202021ED00C1AD54 /* AIExtention */ = {
+			isa = PBXGroup;
+			children = (
+				8EF56D81202021ED00C1AD54 /* UIView+AutoLayout.h */,
+				8EF56D82202021ED00C1AD54 /* UIView+AutoLayout.m */,
+				8EF56D83202021ED00C1AD54 /* UIView+InvolveView.h */,
+				8EF56D84202021ED00C1AD54 /* UIView+InvolveView.m */,
+				8EF56D85202021ED00C1AD54 /* UIView+Properties.h */,
+				8EF56D86202021ED00C1AD54 /* UIView+Properties.m */,
+			);
+			path = AIExtention;
+			sourceTree = "<group>";
+		};
+		8EF56D8D202021ED00C1AD54 /* AINetwork */ = {
+			isa = PBXGroup;
+			children = (
+				8EF56D8E202021ED00C1AD54 /* AINetworkRequest.h */,
+				8EF56D8F202021ED00C1AD54 /* AINetworkRequest.m */,
+			);
+			path = AINetwork;
+			sourceTree = "<group>";
+		};
+		8EF56D94202021ED00C1AD54 /* AISliderModule */ = {
+			isa = PBXGroup;
+			children = (
+				8EF56D95202021ED00C1AD54 /* AISliderBarValueVimod.h */,
+				8EF56D96202021ED00C1AD54 /* AISliderBarValueVimod.m */,
+				8EF56D97202021ED00C1AD54 /* AISliderDotFillRangeVimod.h */,
+				8EF56D98202021ED00C1AD54 /* AISliderDotFillRangeVimod.m */,
+				8EF56D99202021ED00C1AD54 /* AISliderDotVimod.h */,
+				8EF56D9A202021ED00C1AD54 /* AISliderDotVimod.m */,
+				8EF56D9B202021ED00C1AD54 /* AISliderView.h */,
+				8EF56D9C202021ED00C1AD54 /* AISliderView.m */,
+				8EF56D9D202021ED00C1AD54 /* AISliderView.xib */,
+				A5711CDB212EC5BD006AE2A9 /* thumb30.png */,
+				A53D8C9521663A31006A4E40 /* thumb30@2.png */,
+				8EF56D9E202021ED00C1AD54 /* ic_custom_slider_dot.png */,
+			);
+			path = AISliderModule;
+			sourceTree = "<group>";
+		};
+		8EF56DD7202021F100C1AD54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75147A0F21C15B71002EA0CA /* rs.mp3 */,
+				8EF6C43E204F99FD002A14FE /* raindrop.mp3 */,
+				75147A0D21C15721002EA0CA /* rain.mp3 */,
+				8EF6C43C204F7C8A002A14FE /* audio1.caf */,
+				8EF56DD8202021F100C1AD54 /* noo.mp3 */,
+				8EF56DD9202021F100C1AD54 /* noo_s.mp3 */,
+				8EF56DDA202021F100C1AD54 /* youtube_thumb.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8EF56DDB202021F400C1AD54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EF56DDC202021F400C1AD54 /* BaseAppModel.h */,
+				8EF56DDD202021F400C1AD54 /* BaseAppModel.m */,
+				8EF56DDE202021F400C1AD54 /* DeviceMediaModel.h */,
+				8EF56DDF202021F400C1AD54 /* DeviceMediaModel.m */,
+				8EF56DE0202021F400C1AD54 /* IMediaItem.h */,
+				8EF56DE1202021F400C1AD54 /* PlaylistModel.h */,
+				8EF56DE2202021F400C1AD54 /* PlaylistModel.m */,
+				8EF56DE3202021F400C1AD54 /* VideoPlaylistModel.h */,
+				8EF56DE4202021F400C1AD54 /* VideoPlaylistModel.m */,
+				8EF56DE5202021F400C1AD54 /* YoutubeVideoModel.h */,
+				8EF56DE6202021F400C1AD54 /* YoutubeVideoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8EF56E192020231500C1AD54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A581681E218C164E00ABE2F0 /* ToastView */,
+				A5FEBFCC2142AEE800056FDE /* HorizontalSliderBar */,
+				8E912A08206BBB8A003E8BA6 /* SettingPopup */,
+				8E912A04206B9C3D003E8BA6 /* AudioPlayerController */,
+				8E9129FE206B81BE003E8BA6 /* ReverbOptionsView */,
+				8E8A0960205C245E00AABD01 /* VerticalEQBar */,
+				8E8A095A205BFB1300AABD01 /* VerticalSliderBar */,
+				8EF56E1A2020231500C1AD54 /* AudioPlayerView */,
+				8EF56E202020231500C1AD54 /* AudioSplit */,
+				8EF56E282020231500C1AD54 /* DraggablePlayerView */,
+				8EF56E2E2020231500C1AD54 /* LocalMedia */,
+				8EF56E372020231500C1AD54 /* RootTabBarController.h */,
+				8EF56E382020231500C1AD54 /* RootTabBarController.m */,
+				8EF56E392020231500C1AD54 /* ViewSection */,
+				8EF56E3D2020231500C1AD54 /* YoutubeSearch */,
+				8E29AC18205A690900B5AF08 /* ChildTabViewController.h */,
+				8E29AC19205A690900B5AF08 /* ChildTabViewController.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8EF56E1A2020231500C1AD54 /* AudioPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				8EF56E1B2020231500C1AD54 /* AudioPlayerView.h */,
+				8EF56E1C2020231500C1AD54 /* AudioPlayerView.m */,
+				8EF56E1D2020231500C1AD54 /* AudioPlayerView.xib */,
+				8EF56E1E2020231500C1AD54 /* AudioEQController.h */,
+				8EF56E1F2020231500C1AD54 /* AudioEQController.m */,
+				8EA182C72064F4B800C6B98E /* ReverbPopupController.h */,
+				8EA182C82064F4B800C6B98E /* ReverbPopupController.m */,
+			);
+			path = AudioPlayerView;
+			sourceTree = "<group>";
+		};
+		8EF56E202020231500C1AD54 /* AudioSplit */ = {
+			isa = PBXGroup;
+			children = (
+				8EF56E212020231500C1AD54 /* AudioPlayerControl.h */,
+				8EF56E222020231500C1AD54 /* AudioPlayerControl.m */,
+				8EF56E232020231500C1AD54 /* AudioSplitController.h */,
+				8EF56E242020231500C1AD54 /* AudioSplitController.m */,
+				8EF56E252020231500C1AD54 /* AudioSplitSliderView.h */,
+				8EF56E262020231500C1AD54 /* AudioSplitSliderView.m */,
+				8EF56E272020231500C1AD54 /* AudioSplitSliderView.xib */,
+			);
+			path = AudioSplit;
+			sourceTree = "<group>";
+		};
+		8EF56E282020231500C1AD54 /* DraggablePlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				8EF56E2B2020231500C1AD54 /* MultimediaPlayerView.h */,
+				8EF56E2C2020231500C1AD54 /* MultimediaPlayerView.m */,
+				8EF56E2D2020231500C1AD54 /* MultimediaPlayerView.xib */,
+			);
+			path = DraggablePlayerView;
+			sourceTree = "<group>";
+		};
+		8EF56E2E2020231500C1AD54 /* LocalMedia */ = {
+			isa = PBXGroup;
+			children = (
+				8EF56E62202025D300C1AD54 /* AudioTableViewCell.h */,
+				8EF56E61202025D300C1AD54 /* AudioTableViewCell.m */,
+				8EF56E60202025D300C1AD54 /* AudioTableViewCell.xib */,
+				8EF56E312020231500C1AD54 /* MusicLibraryController.h */,
+				8EF56E322020231500C1AD54 /* MusicLibraryController.m */,
+				8EF56E2F2020231500C1AD54 /* FavoriteViewController.h */,
+				8EF56E302020231500C1AD54 /* FavoriteViewController.m */,
+				8EF56E332020231500C1AD54 /* PlaylistTableCell.h */,
+				8EF56E342020231500C1AD54 /* PlaylistTableCell.m */,
+				8EF56E352020231500C1AD54 /* PlaylistViewController.h */,
+				8EF56E362020231500C1AD54 /* PlaylistViewController.m */,
+				75147A0A21C151AF002EA0CA /* UITabBar+TabBar.h */,
+				75147A0B21C151AF002EA0CA /* UITabBar+TabBar.m */,
+			);
+			path = LocalMedia;
+			sourceTree = "<group>";
+		};
+		8EF56E392020231500C1AD54 /* ViewSection */ = {
+			isa = PBXGroup;
+			children = (
+				8EF56E3A2020231500C1AD54 /* MediaItemListView.h */,
+				8EF56E3B2020231500C1AD54 /* MediaItemListView.m */,
+				8EF56E3C2020231500C1AD54 /* MediaItemListView.xib */,
+			);
+			path = ViewSection;
+			sourceTree = "<group>";
+		};
+		8EF56E3D2020231500C1AD54 /* YoutubeSearch */ = {
+			isa = PBXGroup;
+			children = (
+				8EF56E3E2020231500C1AD54 /* YTFavoriteViewController.h */,
+				8EF56E3F2020231500C1AD54 /* YTFavoriteViewController.m */,
+				8EF56E402020231500C1AD54 /* YTPlaylistTableCell.h */,
+				8EF56E412020231500C1AD54 /* YTPlaylistTableCell.m */,
+				8EF56E422020231500C1AD54 /* YTPlaylistViewController.h */,
+				8EF56E432020231500C1AD54 /* YTPlaylistViewController.m */,
+				8EF56E442020231500C1AD54 /* YTSearchViewController.h */,
+				8EF56E452020231500C1AD54 /* YTSearchViewController.m */,
+				8EF56E462020231500C1AD54 /* YoutubeTableViewCell.h */,
+				8EF56E472020231500C1AD54 /* YoutubeTableViewCell.m */,
+				8EF56E482020231500C1AD54 /* YoutubeTableViewCell.xib */,
+			);
+			path = YoutubeSearch;
+			sourceTree = "<group>";
+		};
+		A581681E218C164E00ABE2F0 /* ToastView */ = {
+			isa = PBXGroup;
+			children = (
+				A5816820218C16BB00ABE2F0 /* UIView+Toast.h */,
+				A581681F218C16BB00ABE2F0 /* UIView+Toast.m */,
+			);
+			path = ToastView;
+			sourceTree = "<group>";
+		};
+		A5FEBFCC2142AEE800056FDE /* HorizontalSliderBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HorizontalSliderBar;
+			sourceTree = "<group>";
+		};
+		ED396C8425DC3D251C0A1943 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A581681C218C164600ABE2F0 /* Foundation.framework */,
+				A581681A218C163B00ABE2F0 /* CoreGraphics.framework */,
+				A5816818218C160800ABE2F0 /* QuartzCore.framework */,
+				A5816816218C15E200ABE2F0 /* UIKit.framework */,
+				8E18F12E1FF3E95300B001CD /* AVFoundation.framework */,
+				65C8615C1B854F67FC18C249 /* libPods-YoutubeSearch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EEC2B651FA320CB006FA486 /* YoutubeSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EEC2B7D1FA320CB006FA486 /* Build configuration list for PBXNativeTarget "YoutubeSearch" */;
+			buildPhases = (
+				8BB1418FE53874878B0BEA7C /* [CP] Check Pods Manifest.lock */,
+				8EEC2B621FA320CB006FA486 /* Sources */,
+				8EEC2B631FA320CB006FA486 /* Frameworks */,
+				8EEC2B641FA320CB006FA486 /* Resources */,
+				94DE8C6B013B6871E2B4FFD5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoutubeSearch;
+			productName = YoutubeSearch;
+			productReference = 8EEC2B661FA320CB006FA486 /* YoutubeSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EEC2B5E1FA320CB006FA486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "An Nguyen";
+				TargetAttributes = {
+					8EEC2B651FA320CB006FA486 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DA5FDH7Z9G;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8EEC2B611FA320CB006FA486 /* Build configuration list for PBXProject "YoutubeSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EEC2B5D1FA320CB006FA486;
+			productRefGroup = 8EEC2B671FA320CB006FA486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EEC2B651FA320CB006FA486 /* YoutubeSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EEC2B641FA320CB006FA486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEC2B791FA320CB006FA486 /* LaunchScreen.storyboard in Resources */,
+				8EF56DF5202021F400C1AD54 /* ic_custom_slider_dot.png in Resources */,
+				8EF56DF4202021F400C1AD54 /* AISliderView.xib in Resources */,
+				8EF56E11202021F400C1AD54 /* noo.mp3 in Resources */,
+				8EF56E13202021F400C1AD54 /* youtube_thumb.jpg in Resources */,
+				A5711CDC212EC5BD006AE2A9 /* thumb30.png in Resources */,
+				8EF56E5F2020231500C1AD54 /* YoutubeTableViewCell.xib in Resources */,
+				8EF56E522020231500C1AD54 /* MultimediaPlayerView.xib in Resources */,
+				8EF56E63202025D400C1AD54 /* AudioTableViewCell.xib in Resources */,
+				75147A1021C15B71002EA0CA /* rs.mp3 in Resources */,
+				8E912A03206B81EB003E8BA6 /* ReverbOptionsView.xib in Resources */,
+				8EF56E4A2020231500C1AD54 /* AudioPlayerView.xib in Resources */,
+				75147A0E21C15721002EA0CA /* rain.mp3 in Resources */,
+				8EF6C43F204F99FD002A14FE /* raindrop.mp3 in Resources */,
+				8E8A095F205BFB4500AABD01 /* VerticalSliderBar.xib in Resources */,
+				8EEC2B761FA320CB006FA486 /* Assets.xcassets in Resources */,
+				A568C69E217F4C7F0067DA7C /* Circles-01.png in Resources */,
+				8EF56E592020231500C1AD54 /* MediaItemListView.xib in Resources */,
+				8E8A0965205C247100AABD01 /* VerticalEQBar.xib in Resources */,
+				8EF56E12202021F400C1AD54 /* noo_s.mp3 in Resources */,
+				8EF6C43D204F7C8A002A14FE /* audio1.caf in Resources */,
+				8EEC2B741FA320CB006FA486 /* Main.storyboard in Resources */,
+				8EF56E4F2020231500C1AD54 /* AudioSplitSliderView.xib in Resources */,
+				A53D8C9621663A32006A4E40 /* thumb30@2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BB1418FE53874878B0BEA7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoutubeSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94DE8C6B013B6871E2B4FFD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YoutubeSearch/Pods-YoutubeSearch-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ISMessages/ISMessages.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ISMessages.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YoutubeSearch/Pods-YoutubeSearch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EEC2B621FA320CB006FA486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8A095D205BFB3B00AABD01 /* VerticalSliderBar.m in Sources */,
+				8EA182CC20651CB800C6B98E /* AIAudioMixerManager.m in Sources */,
+				8EF56E562020231500C1AD54 /* PlaylistViewController.m in Sources */,
+				8E912A01206B81E1003E8BA6 /* ReverbOptionsView.m in Sources */,
+				8EF56E532020231500C1AD54 /* FavoriteViewController.m in Sources */,
+				8EF56DF2202021F400C1AD54 /* AISliderDotVimod.m in Sources */,
+				8EA182C52064F3BC00C6B98E /* AIPopupController.m in Sources */,
+				8EF56DF3202021F400C1AD54 /* AISliderView.m in Sources */,
+				8EF56E552020231500C1AD54 /* PlaylistTableCell.m in Sources */,
+				8EF56E4B2020231500C1AD54 /* AudioEQController.m in Sources */,
+				8EF56DF8202021F400C1AD54 /* NSDate+Utilities.m in Sources */,
+				8EF56E542020231500C1AD54 /* MusicLibraryController.m in Sources */,
+				8EED8C632020580900B0828C /* ControllerServices.m in Sources */,
+				8EF56DEB202021F400C1AD54 /* AIFramework.m in Sources */,
+				8EEC2B6E1FA320CB006FA486 /* AppDelegate.m in Sources */,
+				8EF56DF0202021F400C1AD54 /* AISliderBarValueVimod.m in Sources */,
+				8E912A07206B9C51003E8BA6 /* AudioPlayerController.m in Sources */,
+				8EF56DF1202021F400C1AD54 /* AISliderDotFillRangeVimod.m in Sources */,
+				8E912A11206BC54D003E8BA6 /* UIView+AIExtentions.m in Sources */,
+				8EF56E5B2020231500C1AD54 /* YTPlaylistTableCell.m in Sources */,
+				8E8A0963205C246A00AABD01 /* VerticalEQBar.m in Sources */,
+				8EF56E582020231500C1AD54 /* MediaItemListView.m in Sources */,
+				8EF56E5D2020231500C1AD54 /* YTSearchViewController.m in Sources */,
+				8EF56DEF202021F400C1AD54 /* AISlider.m in Sources */,
+				8E29AC1A205A690900B5AF08 /* ChildTabViewController.m in Sources */,
+				8EF56DFB202021F400C1AD54 /* UIColor+HexString.m in Sources */,
+				8EF56E5C2020231500C1AD54 /* YTPlaylistViewController.m in Sources */,
+				8EF56E512020231500C1AD54 /* MultimediaPlayerView.m in Sources */,
+				8EA182C92064F4B800C6B98E /* ReverbPopupController.m in Sources */,
+				8EF56DE9202021F400C1AD54 /* UIView+Properties.m in Sources */,
+				8E912A0B206BBB9B003E8BA6 /* SettingPopup.m in Sources */,
+				8EF56DF9202021F400C1AD54 /* NSObject+Block.m in Sources */,
+				8EF56DF6202021F400C1AD54 /* AIUtility.m in Sources */,
+				8E4F426A2041648B00E7C691 /* MarqueeLabel.m in Sources */,
+				8EF56E4E2020231500C1AD54 /* AudioSplitSliderView.m in Sources */,
+				8EF56E18202021F400C1AD54 /* YoutubeVideoModel.m in Sources */,
+				8EF56DEA202021F400C1AD54 /* AIExtentions.m in Sources */,
+				8EF56DE7202021F400C1AD54 /* UIView+AutoLayout.m in Sources */,
+				8EF56E5A2020231500C1AD54 /* YTFavoriteViewController.m in Sources */,
+				8EF56DEE202021F400C1AD54 /* AINibView.m in Sources */,
+				8EF56E17202021F400C1AD54 /* VideoPlaylistModel.m in Sources */,
+				8EF56DED202021F400C1AD54 /* AINetworkRequest.m in Sources */,
+				8EF56E5E2020231500C1AD54 /* YoutubeTableViewCell.m in Sources */,
+				8EF56DEC202021F400C1AD54 /* AIGestureHandler.m in Sources */,
+				8EF56DF7202021F400C1AD54 /* AIWeakTimer.m in Sources */,
+				8EF56DFC202021F400C1AD54 /* AppSession.m in Sources */,
+				8E4F42672041581400E7C691 /* AppDefine.m in Sources */,
+				8EF56E64202025D400C1AD54 /* AudioTableViewCell.m in Sources */,
+				A5816821218C16BB00ABE2F0 /* UIView+Toast.m in Sources */,
+				8EF56E14202021F400C1AD54 /* BaseAppModel.m in Sources */,
+				8EF56E572020231500C1AD54 /* RootTabBarController.m in Sources */,
+				8EF56E16202021F400C1AD54 /* PlaylistModel.m in Sources */,
+				8EF56DE8202021F400C1AD54 /* UIView+InvolveView.m in Sources */,
+				75147A0C21C151AF002EA0CA /* UITabBar+TabBar.m in Sources */,
+				8EF56E4C2020231500C1AD54 /* AudioPlayerControl.m in Sources */,
+				8EF56DFA202021F400C1AD54 /* NSTimerWeak.m in Sources */,
+				8EF56E15202021F400C1AD54 /* DeviceMediaModel.m in Sources */,
+				8EF56E492020231500C1AD54 /* AudioPlayerView.m in Sources */,
+				8EEC2B6B1FA320CB006FA486 /* main.m in Sources */,
+				8EF56E4D2020231500C1AD54 /* AudioSplitController.m in Sources */,
+				8EA182C62064F3BC00C6B98E /* UIViewController+AIPresented.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EEC2B721FA320CB006FA486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EEC2B731FA320CB006FA486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EEC2B771FA320CB006FA486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EEC2B781FA320CB006FA486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EEC2B7B1FA320CB006FA486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EEC2B7C1FA320CB006FA486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EEC2B7E1FA320CB006FA486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6125E72A74F5676329B65F70 /* Pods-YoutubeSearch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DA5FDH7Z9G;
+				INFOPLIST_FILE = YoutubeSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainsic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8EEC2B7F1FA320CB006FA486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9CCCD0FD8D4C1A374A913C6 /* Pods-YoutubeSearch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DA5FDH7Z9G;
+				INFOPLIST_FILE = YoutubeSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainsic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EEC2B611FA320CB006FA486 /* Build configuration list for PBXProject "YoutubeSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEC2B7B1FA320CB006FA486 /* Debug */,
+				8EEC2B7C1FA320CB006FA486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EEC2B7D1FA320CB006FA486 /* Build configuration list for PBXNativeTarget "YoutubeSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEC2B7E1FA320CB006FA486 /* Debug */,
+				8EEC2B7F1FA320CB006FA486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EEC2B5E1FA320CB006FA486 /* Project object */;
+}

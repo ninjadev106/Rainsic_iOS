@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AudioPlayerView">
+            <connections>
+                <outlet property="pitchBar" destination="abZ-ak-jue" id="tBp-g8-8AG"/>
+                <outlet property="seekBar" destination="sTY-0j-S1M" id="jka-vF-vzr"/>
+                <outlet property="speedBar" destination="rcP-52-ZlL" id="yj2-R1-NCJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="424"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="sTY-0j-S1M" customClass="AISlider">
+                    <rect key="frame" x="10" y="20" width="355" height="31"/>
+                    <color key="thumbTintColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </slider>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.5" maxValue="1.5" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcP-52-ZlL">
+                    <rect key="frame" x="10" y="120" width="355" height="31"/>
+                    <connections>
+                        <action selector="onSpeedChanged:" destination="-1" eventType="valueChanged" id="p4v-pc-eaz"/>
+                    </connections>
+                </slider>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7PP-ri-eFg">
+                    <rect key="frame" x="172" y="70" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="7PP-ri-eFg" secondAttribute="height" multiplier="1:1" id="5xq-jn-7JE"/>
+                        <constraint firstAttribute="height" constant="30" id="jlK-cK-Mkr"/>
+                    </constraints>
+                    <state key="normal" image="play_btn"/>
+                    <state key="selected" image="stop_btn"/>
+                    <connections>
+                        <action selector="onTooglePlayTouched:" destination="-1" eventType="touchUpInside" id="kdD-ES-5Wl"/>
+                    </connections>
+                </button>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-500" maxValue="500" translatesAutoresizingMaskIntoConstraints="NO" id="abZ-ak-jue">
+                    <rect key="frame" x="10" y="170" width="355" height="31"/>
+                    <connections>
+                        <action selector="onPitchChanged:" destination="-1" eventType="valueChanged" id="gyY-Oj-2JB"/>
+                    </connections>
+                </slider>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="lve-LJ-OZQ">
+                    <rect key="frame" x="12" y="220" width="351" height="29"/>
+                    <segments>
+                        <segment title="Treble"/>
+                        <segment title="Powerful"/>
+                        <segment title="Pop"/>
+                        <segment title="Live"/>
+                        <segment title="Club"/>
+                        <segment title="Bass"/>
+                    </segments>
+                    <connections>
+                        <action selector="onEQChanged:" destination="-1" eventType="valueChanged" id="fDb-oN-8XC"/>
+                    </connections>
+                </segmentedControl>
+            </subviews>
+            <color key="backgroundColor" red="0.32549019607843138" green="0.52156862745098043" blue="0.5490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="sTY-0j-S1M" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="2xW-0D-J5A"/>
+                <constraint firstAttribute="trailing" secondItem="sTY-0j-S1M" secondAttribute="trailing" constant="12" id="ASE-Ni-odM"/>
+                <constraint firstItem="sTY-0j-S1M" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="CDT-Kh-m3M"/>
+                <constraint firstAttribute="trailing" secondItem="abZ-ak-jue" secondAttribute="trailing" constant="12" id="DdY-ix-8Ug"/>
+                <constraint firstAttribute="trailing" secondItem="lve-LJ-OZQ" secondAttribute="trailing" constant="12" id="FpQ-7m-YTK"/>
+                <constraint firstItem="7PP-ri-eFg" firstAttribute="top" secondItem="sTY-0j-S1M" secondAttribute="bottom" constant="20" id="GT9-in-DRC"/>
+                <constraint firstItem="7PP-ri-eFg" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="GdZ-RN-VdS"/>
+                <constraint firstItem="abZ-ak-jue" firstAttribute="top" secondItem="rcP-52-ZlL" secondAttribute="bottom" constant="20" id="HXK-sK-zk7"/>
+                <constraint firstAttribute="trailing" secondItem="rcP-52-ZlL" secondAttribute="trailing" constant="12" id="JC9-Pr-kXk"/>
+                <constraint firstItem="rcP-52-ZlL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="Mqm-ip-JDD"/>
+                <constraint firstItem="abZ-ak-jue" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="RDS-jL-kfL"/>
+                <constraint firstItem="rcP-52-ZlL" firstAttribute="top" secondItem="7PP-ri-eFg" secondAttribute="bottom" constant="20" id="WlU-kM-Th7"/>
+                <constraint firstItem="lve-LJ-OZQ" firstAttribute="top" secondItem="abZ-ak-jue" secondAttribute="bottom" constant="20" id="ZTU-RW-rVd"/>
+                <constraint firstItem="lve-LJ-OZQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="h9I-j2-exE"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="32.5" y="14"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="play_btn" width="21" height="21"/>
+        <image name="stop_btn" width="941" height="941"/>
+    </resources>
+</document>
