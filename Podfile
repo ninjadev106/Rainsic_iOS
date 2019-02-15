@@ -17,4 +17,7 @@ target 'YoutubeSearch' do
 #    pod 'ZFPlayer'
     pod 'IQKeyboardManager'
 #    pod 'MarqueeLabel'
+
+    pod 'AppLovinSDK'
+    
 end

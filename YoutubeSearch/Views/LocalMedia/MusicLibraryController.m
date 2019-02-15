@@ -23,6 +23,7 @@
 #import "AppDefine.h"
 #import "RootTabBarController.h"
 #import "AudioSplitController.h"
+#import <AppLovinSDK/AppLovinSDK.h>
 
 @interface MusicLibraryController ()<UITableViewDelegate, UITableViewDataSource, AudioTableViewCellDelegate>{
     
@@ -66,6 +67,15 @@
                                              selector:@selector(playerAppearNotificationListener:)
                                                  name:PlayerAppearNotification
                                                object:nil];
+    
+    ALEventService* eventService = [ALSdk shared].eventService;
+    
+    [eventService trackEvent: kALEventTypeUserViewedContent
+                  parameters: @{
+                                kALEventParameterContentIdentifierKey : @"Viewed Main Page(Music library)"
+                                }
+     ];
+    
 }
 
 - (void)checkPermissionForMusic {

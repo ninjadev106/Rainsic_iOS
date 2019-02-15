@@ -10,6 +10,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import <AudioToolbox/AudioToolbox.h>
 #import <IQKeyboardManager.h>
+#import <AppLovinSDK/AppLovinSDK.h>
 
 @interface AppDelegate ()
 
@@ -53,6 +54,8 @@
     
     [IQKeyboardManager sharedManager].enable = true;
     [IQKeyboardManager sharedManager].toolbarDoneBarButtonItemText = @"Close keyboard";
+    
+    [ALSdk initializeSdk];
     return YES;
 }
 
